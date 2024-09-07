@@ -11,12 +11,12 @@
             </li>
             <li class="submenu">
                 <a href="#"><i class="fas fa-edit"></i>
-                <span> Articles</span>
+                <span> Recettes</span>
                 <span class="menu-arrow"></span>
                 </a>
             <ul class="submenu_class" style="display: none">
-                <li><a href="">Tous les articles </a></li>
-                <li><a href="">Ajouter un article </a></li>
+                <li><a href="{{route('recipe.index')}}">Toutes les recettes </a></li>
+                <li><a href="{{route('recipe.create')}}">Ajouter une recette </a></li>
             </ul>
             <li><a href="all-comments.html"><i class="fe fe-table"></i> <span>Commentaires</span></a></li>
         </li>

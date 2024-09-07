@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\RecipeController;
 
 
 Route::get('/', function () {
@@ -20,5 +21,9 @@ Route::middleware('auth')->group(function () {
 
 //Route pour les categories
 Route::resource('/category', CategoryController::class);
+
+//Route pour les recettes
+Route::resource('/recipe', RecipeController::class);
+
 
 require __DIR__.'/auth.php';

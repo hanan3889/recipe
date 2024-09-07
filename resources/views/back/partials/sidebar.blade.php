@@ -36,8 +36,8 @@
                 <span class="menu-arrow"></span>
                 </a>
                 <ul class="submenu_class" style="display: none">
-                    <li><a href="">Tous les auteurs </a></li>
-                    <li><a href=""> Ajouter un auteur</a></li>
+                    <li><a href="{{route('author.index')}}">Tous les auteurs </a></li>
+                    <li><a href="{{route('author.create')}}"> Ajouter un auteur</a></li>
                 </ul>
             </li>
             <li class="submenu">

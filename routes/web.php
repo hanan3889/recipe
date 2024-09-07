@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\UserController;
 
 
 Route::get('/', function () {
@@ -24,6 +25,9 @@ Route::resource('/category', CategoryController::class);
 
 //Route pour les recettes
 Route::resource('/recipe', RecipeController::class);
+
+//Route pour les auteurs
+Route::resource('/author', UserController::class);
 
 
 require __DIR__.'/auth.php';

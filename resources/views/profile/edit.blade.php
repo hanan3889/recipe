@@ -3,9 +3,9 @@
 @section('title', 'Dashboard - Mon espace')
 
 @section('dashboard-header')
-    <div class="row">
+    <div class="row my-5">
         <div class="col">
-            <h3 class="page-title">Mon</h3>
+            <h3 class="page-title">Mon espace</h3>
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{route('dashboard')}}">Dashboard</a></li>
                 <li class="breadcrumb-item active">Mon espace</li>

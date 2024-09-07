@@ -20,15 +20,15 @@
             </ul>
             <li><a href="all-comments.html"><i class="fe fe-table"></i> <span>Commentaires</span></a></li>
         </li>
-        @can('admin-access')
+        {{-- @can('admin-access') --}}
             <li class="submenu">
                 <a href="#"><i class="fas fa-book"></i>
                     <span> Catégories</span>
                     <span class="menu-arrow"></span>
                 </a>
                 <ul class="submenu_class" style="display: none">
-                    <li><a href=""> Toutes les catégories </a></li>
-                    <li><a href=""> Ajouter une catégorie </a></li>
+                    <li><a href="{{route('category.index')}}"> Toutes les catégories </a></li>
+                    <li><a href="{{route('category.create')}}"> Ajouter une catégorie </a></li>
                 </ul>
             </li>
             <li class="submenu">
@@ -73,7 +73,7 @@
                 <li><a href="blank-page.html">Blank Page </a></li>
             </ul>
             </li>
-        @endcan
+        {{-- @endcan --}}
     </ul>
     </div>
 </div>

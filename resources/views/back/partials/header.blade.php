@@ -29,7 +29,7 @@
                 </div>
                 <div class="user-text">
                     <h6>{{\Illuminate\Support\Facades\Auth::user()->name}}</h6>
-                    <p class="text-muted mb-0">Administrateur</p>
+                    <p class="text-muted mb-0">{{ \Illuminate\Support\Facades\Auth::user()->role }}</p>
                 </div>
             </div>
             <a class="dropdown-item" href="{{route('profile.edit')}}">Mon espace</a>

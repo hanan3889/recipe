@@ -24,7 +24,7 @@
                     </div>
                     <div class="col ml-md-n2 profile-user-info">
                         <h4 class="user-name mb-3">{{ \Illuminate\Support\Facades\Auth::user()->name }}</h4>
-                        <h6 class="text-muted mt-1">Admin</h6>
+                        <h6 class="text-muted mt-1">{{ \Illuminate\Support\Facades\Auth::user()->role }}</h6>
                     </div>
 
                 </div>

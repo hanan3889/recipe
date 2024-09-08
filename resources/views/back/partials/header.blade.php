@@ -1,6 +1,6 @@
 <div class="header">
     <div class="header-left">
-        <a href="#" class="logo">
+        <a href="{{route('dashboard')}}" class="logo">
             <img src="{{ asset('back_auth/assets/profil/'.Auth::user()->image) }}" width="50" height="70" alt="logo"/>
             <span class="logoclass">{{\Illuminate\Support\Facades\Auth::user()->name}}</span>
         </a>

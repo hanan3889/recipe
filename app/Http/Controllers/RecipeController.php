@@ -15,10 +15,23 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        //
-        return view('back.recipe.index', [
-            'recipes' => Recipe::all()
-        ]);
+        /*
+        Methode qui permet de recuperer toutes les recettes
+        si c'est l'admin, sinon seulement celles de l'utilisateur
+        connecté
+        */
+
+        if (Auth::user()->role == 'admin') {
+            
+            $recipes = Recipe::all();
+        
+        }else {
+            
+            $recipes = Recipe::where('author_id', Auth::user()->id)->get();
+        
+        }
+
+        return view('back.recipe.index', compact('recipes'));
     }
 
     /**

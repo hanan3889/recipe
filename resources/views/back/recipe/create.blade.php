@@ -55,15 +55,8 @@
                         <div class="form-group">
                             <label>Télécharger une image</label>
                             <div class="custom-file mb-3">
-                                <input
-                                    type="file"
-                                    class="custom-file-input"
-                                    id="customFile"
-                                    name="image"
-                                />
-                                <label class="custom-file-label" for="customFile"
-                                >Choisir une image</label
-                                >
+                                <input type="file" class="custom-file-input" id="customFile" name="image"/>
+                                <label class="custom-file-label" for="customFile">Choisir une image</label>
                             </div>
                         </div>
                     </div>
@@ -136,7 +129,7 @@
                             <label class="form-check-label" for="recette_comment_inactive">Non autorise</label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary  my-5">Enregistrer l'recette</button>
+                    <button type="submit" class="btn btn-primary  my-5">Enregistrer la recette</button>
                 </div>
             </form>
         </div>

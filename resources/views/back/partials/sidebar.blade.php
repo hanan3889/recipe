@@ -20,7 +20,7 @@
             </ul>
             <li><a href="all-comments.html"><i class="fe fe-table"></i> <span>Commentaires</span></a></li>
         </li>
-        {{-- @can('admin-access') --}}
+        @can('admin-access')
             <li class="submenu">
                 <a href="#"><i class="fas fa-book"></i>
                     <span> Catégories</span>
@@ -60,7 +60,7 @@
                 <li><a href="blank-page.html">Blank Page </a></li>
             </ul>
             </li>
-        {{-- @endcan --}}
+        @endcan
     </ul>
     </div>
 </div>

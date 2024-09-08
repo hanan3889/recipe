@@ -5,7 +5,7 @@
 @section('dashboard-header')
 <div class="row">
     <div class="col-sm-12 my-5">
-        <h3 class="page-title mt-3">Bienvenue dans votre espace </h3>
+        <h3 class="page-title mt-3">Bienvenue dans votre espace {{ \Illuminate\Support\Facades\Auth::user()->name }} ! </h3>
         <ul class="breadcrumb">
             <li class="breadcrumb-item active">Dashboard</li>
         </ul>

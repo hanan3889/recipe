@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RecipeController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\SettingsController;
 
 
 Route::get('/', function () {
@@ -28,6 +29,12 @@ Route::resource('/recipe', RecipeController::class);
 
 //Route pour les auteurs
 Route::resource('/author', UserController::class);
+
+//Partie paramètres
+Route::get('/parametre', [SettingsController::class, 'index'])->name('setting.index');
+// Route::post('/modifier-parametre', [SettingsController::class, 'update'])->name('setting.update');
+Route::match(['put', 'post'], '/modifier-parametre', [SettingsController::class, 'update'])->name('setting.update');
+
 
 
 require __DIR__.'/auth.php';

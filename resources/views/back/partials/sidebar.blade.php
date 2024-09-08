@@ -40,20 +40,7 @@
                     <li><a href="{{route('author.create')}}"> Ajouter un auteur</a></li>
                 </ul>
             </li>
-            <li class="submenu">
-                <a href="#"><i class="far fa-money-bill-alt"></i>
-                    <span> Medias Sociaux </span> <span class="menu-arrow"></span>
-                </a>
-            <ul class="submenu_class" style="display: none">
-                <li><a href="">Tous les medias </a></li>
-                <li><a href="">Ajouter un media </a></li>
-            </ul>
-            </li>
-        
-            <li><a href="all-contacts.html"><i class="fe fe-table"></i> 
-                <span>Contacts</span></a>
-            </li>
-            <li><a href=""><i class="fas fa-cog"></i>
+            <li><a href="{{route('setting.index')}}"><i class="fas fa-cog"></i>
                 <span>Paramètres</span>
             </a>
             </li>

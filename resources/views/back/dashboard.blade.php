@@ -22,7 +22,7 @@
           <div class="dash-widget-header">
             <div>
               <h3 class="card_widget_header">236</h3>
-              <h6 class="text-muted">Total Articles</h6>
+              <h6 class="text-muted">Total recettes</h6>
             </div>
             <div class="ml-auto mt-md-3 mt-lg-0">
               <span class="opacity-7 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus">
@@ -95,7 +95,7 @@
     <div class="col-md-12 d-flex">
       <div class="card card-table flex-fill">
         <div class="card-header">
-          <h4 class="card-title float-left mt-2">Articles recents</h4>
+          <h4 class="card-title float-left mt-2">Recettes récentes</h4>
           <button type="button" class="btn btn-primary float-right veiwbutton">
             Voir tous
           </button>
@@ -105,7 +105,7 @@
             <table class="table table-hover table-center">
               <thead>
                 <tr>
-                  <th>ID Articles</th>
+                  <th>ID Recettes</th>
                   <th>Image</th>
                   <th>Titre</th>
                   <th>Catégories</th>

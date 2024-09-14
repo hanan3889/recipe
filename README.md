@@ -1,5 +1,5 @@
 # Casserole en folie
-![Logo](/public/assets/logo.webp)
+![Logo](/public/front/img/logo.webp)
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 

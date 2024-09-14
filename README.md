@@ -3,7 +3,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-Il s'agit d'un site où le visiteur peur consulter des recettes de cuisine. Il lui est possible de s'inscrire et de se connecter afin de créer et de publier ses propres recettes.
+Casserole en Folie est une plateforme en ligne dédiée à la création et au partage de recettes de cuisine. Les utilisateurs, une fois connectés, peuvent créer, modifier, supprimer et publier leurs propres recettes, les rendant ainsi accessibles à l'ensemble des visiteurs du site. 
 
 ### Pré-requis
 
@@ -43,7 +43,6 @@ Pour démarrer le projet faire :
 
 Projet mené par une équipe de développeurs composé de :
 
--   **Tania ORMENO GALVEZ BOUVIER**
 -   **Hanan REBAIA**
 -   **Louis GARAGNON**
 -   **Thomas GUILLAIN**

@@ -18,7 +18,7 @@
                 <li><a href="{{route('recipe.index')}}">Toutes les recettes </a></li>
                 <li><a href="{{route('recipe.create')}}">Ajouter une recette </a></li>
             </ul>
-            <li><a href="all-comments.html"><i class="fe fe-table"></i> <span>Commentaires</span></a></li>
+            <li><a href="{{route('home')}}"><i class="fe fe-home"></i> <span>Accueil</span></a></li>
         </li>
         @can('admin-access')
             <li class="submenu">

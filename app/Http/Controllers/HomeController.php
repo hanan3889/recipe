@@ -19,11 +19,11 @@ class HomeController extends Controller
     }
 
     public function show($id)
-{
-    // Récupérer la recette avec ses relations author et category
-    $recipe = Recipe::with(['author', 'category'])->findOrFail($id);
+    {
+        // Récupérer la recette avec ses relations author et category
+        $recipe = Recipe::with(['author', 'category'])->findOrFail($id);
 
-    // Retourner la vue avec la recette spécifique
-    return view('front.show', compact('recipe'));
-}
+        // Retourner la vue avec la recette spécifique
+        return view('front.show', compact('recipe'));
+    }
 }

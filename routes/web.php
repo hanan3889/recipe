@@ -34,6 +34,9 @@ Route::get('/parametre', [SettingsController::class, 'index'])->name('setting.in
 // Route::post('/modifier-parametre', [SettingsController::class, 'update'])->name('setting.update');
 Route::match(['put', 'post'], '/modifier-parametre', [SettingsController::class, 'update'])->name('setting.update');
 
+//Front
+Route::get('/recettes/{id}', [HomeController::class, 'show'])->name('recettes.show');
+
 
 
 require __DIR__.'/auth.php';

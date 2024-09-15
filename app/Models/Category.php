@@ -31,5 +31,10 @@ class Category extends Model
         return 'slug';
     }
 
+    public function recipes()
+    {
+        return $this->hasMany(Recipe::class, 'category_id', 'id');
+    }
+
 
 }

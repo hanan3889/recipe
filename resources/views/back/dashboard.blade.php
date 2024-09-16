@@ -97,7 +97,7 @@
         <div class="card-header">
           <h4 class="card-title float-left mt-2">Recettes récentes</h4>
           <button type="button" class="btn btn-primary float-right veiwbutton">
-            Voir tous
+            <a
           </button>
         </div>
         <div class="card-body">
@@ -116,14 +116,14 @@
               <tbody>
                 <tr>
                   <td class="text-nowrap">
-                    <div>ART-0001</div>
+                    <div></div>
                   </td>
                   <td class="text-nowrap"></td>
-                  <td>Intelligence artificielle</td>
-                  <td>Tech</td>
-                  <td class="text-center">John Doe</td>
+                  <td></td>
+                  <td></td>
+                  <td class="text-center"></td>
                   <td class="text-center">
-                    <span class="badge badge-pill bg-success inv-badge">PUBLIE</span>
+                    <span class="badge badge-pill bg-success inv-badge"></span>
                   </td>
                 </tr>
               </tbody>

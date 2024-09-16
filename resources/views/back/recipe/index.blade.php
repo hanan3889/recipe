@@ -76,7 +76,7 @@
                                             <a href="" class="avatar avatar-sm mr-2">
                                                 <img class="avatar-img rounded-circle" src="{{ asset('back_auth/assets/profil/'.$recipe->author->image) }}" alt="User Image">
                                             </a>
-                                            <a href="profile.html">{{ $recipe->author->name}}<span>#0001</span></a>
+                                            <a href="profile.html">{{ $recipe->author->name}}<span>#00{{$recipe->author->id}}</span></a>
                                         </h2>
                                     </td>
                                     <td class="text-right">

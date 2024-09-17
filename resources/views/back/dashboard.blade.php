@@ -96,9 +96,9 @@
       <div class="card card-table flex-fill">
         <div class="card-header">
           <h4 class="card-title float-left mt-2">Recettes récentes</h4>
-          <button type="button" class="btn btn-primary float-right veiwbutton">
-            <a
-          </button>
+          <button type="button" class=" rounded-pill btn btn-primary float-right veiwbutton">
+            <a href="{{route('recipe.create')}}" class="btn btn-primary float-right veiwbutton ">Ajouter une recette</a>
+         </button>
         </div>
         <div class="card-body">
           <div class="table-responsive">

@@ -14,7 +14,7 @@
 <body>
     <div class="container my-5">
         <h1 class="text-center">Recettes</h1>
-    <p class="text-center">Nos dernières recettes publiées</p>
+    <p class="text-center my-3">Nos dernières recettes publiées</p>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach($recipes as $recipe)

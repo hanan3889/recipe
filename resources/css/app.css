@@ -4,19 +4,10 @@
 
 /* Importation du css */
 
-/* BASE */
-*{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    color: #333;
-    background-color: #bae5c7; 
-}
 
-p{
-    color:#2e5911
+
+.button {
+    background-color: #591811; !important
 }
 
 

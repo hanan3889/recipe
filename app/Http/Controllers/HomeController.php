@@ -12,7 +12,11 @@ class HomeController extends Controller
 
     public function index()
     {
-        $recipes = Recipe::orderBy('created_at', 'desc')->take(3)->get();
+        $recipes = Recipe::where('isactive', 1)
+                 ->orderBy('created_at', 'desc')
+                 ->take(10)
+                 ->get();
+
         $categories = Category::where('isActive', 1)->orderBy('created_at', 'DESC')->with('recipes')->get();
         
         return view('front.app', compact('recipes', 'categories'));

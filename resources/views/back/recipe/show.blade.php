@@ -26,9 +26,6 @@
                     </div>
                 </article>
                 <div class="widget">
-                    {{-- @foreach($recipe->tags as $tag) --}}
-                        {{-- <label class="label label-info btn btn-primary">{{ $tag->name }}</label> --}}
-                    {{-- @endforeach --}}
                 </div>
                 <div class="widget author-widget clearfix">
                     <h3>A propos de l'auteur</h3>

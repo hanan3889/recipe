@@ -25,7 +25,7 @@
                         </li>
                     @else
                         <li class="nav-item">
-                            <a class="nav-link rounded-pill button btn-primary btn-block" href="{{ url('/login') }}">Se connecter</a>
+                            <a class="nav-link button btn-primary btn-block" href="{{ url('/login') }}">Se connecter</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link rounded-pill btn btn-warning" href="{{ url('/register') }}">Créer un compte</a>

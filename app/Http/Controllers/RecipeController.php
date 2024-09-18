@@ -62,8 +62,6 @@ class RecipeController extends Controller
             'title' => $request->title,
             'description' => $request->description,
             'isActive' => $request->isActive,
-            'isComment' => $request->isComment,
-            'isSharable' => $request->isSharable,
             'image' => $image,
 
             'category_id' => $request->category_id,
@@ -115,8 +113,6 @@ class RecipeController extends Controller
             'title' => $request->title,
             'description' => $request->description,
             'isActive' => $request->isActive,
-            'isComment' => $request->isComment,
-            'isSharable' => $request->isSharable,
             'image' => $image,
 
             'category_id' => $request->category_id,

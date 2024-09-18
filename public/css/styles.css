@@ -1,0 +1,15 @@
+.custom-img-size {
+    max-width: 50%; 
+    height: auto;   
+    display: block;
+    margin: 0 auto; 
+}
+
+.button {
+    background-color: #591811; 
+    border-radius: 25px; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+}
+

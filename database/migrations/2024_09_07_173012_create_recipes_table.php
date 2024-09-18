@@ -18,9 +18,6 @@ return new class extends Migration
             $table->string('slug', 1000);
             $table->string('image')->nullable();
             $table->text('description');
-            $table->boolean('isComment')->default(true);
-            $table->boolean('isActive')->default(true);
-            $table->boolean('isSharable')->default(true);
 
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')

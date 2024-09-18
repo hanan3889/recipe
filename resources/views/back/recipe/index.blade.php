@@ -27,8 +27,6 @@
                                 <th>Titre</th>
                                 <th>Categorie</th>
                                 <th>Publication</th>
-                                <th>Partage</th>
-                                <th>Commentaires</th>
                                 <th>Auteur</th>
                                 <th class="text-right">Actions</th>
                             </tr>
@@ -52,25 +50,8 @@
 
                                         </div>
                                     </td>
-                                    <td>
-                                        <div class="actions">
-                                            @if($recipe->isSharable == 1)
-                                                <a href="#" class="btn btn-sm bg-success-light mr-2">Active</a>
-                                            @else
-                                                <a href="#" class="btn btn-sm bg-success-light mr-2">Desactive</a>
-                                            @endif
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="actions">
-                                            @if($recipe->isComment == 1)
-                                                <a href="#" class="btn btn-sm bg-success-light mr-2">Active</a>
-                                            @else
-                                                <a href="#" class="btn btn-sm bg-success-light mr-2">Desactive</a>
-                                            @endif
-
-                                        </div>
-                                    </td>
+            
+                                
                                     <td>
                                         <h2 class="table-avatar">
                                             <a href="" class="avatar avatar-sm mr-2">

@@ -14,10 +14,11 @@
 <body>
     <div class="container my-5">
         <h1 class="text-center my-3">{{$recipe->title}}</h1>
-        {{-- <img class="card-img-top img-fluid"  src="{{ $recipe->imageUrl() }}" alt="{{ $recipe->title }}" style="width: 100"> --}}
-        <img class="card-img-top img-fluid custom-img-size" src="{{ $recipe->imageUrl() }}" alt="{{ $recipe->title }}">
+        <div class="container">
+            <img class="card-img-top img-fluid custom-img-size" src="{{ $recipe->imageUrl() }}" alt="{{ $recipe->title }}">
+        </div>
 
-        <p class="text-center my-3">{{$recipe->description}}</p>
+        <p class="card-text-wrap  my-3">{{$recipe->description}}</p>
         
         <p class="card-text"><i>Catégorie : {{$recipe->category->name}}</i></p>
         <p class="card-text"><strong> {{$recipe->author->name}}</strong></p>

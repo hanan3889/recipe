@@ -17,9 +17,6 @@ class Recipe extends Model
         'image', 
         'description',
         'isActive',
-        'isComment',
-        'isSharable',
-
         'category_id',
         'author_id',
     ];

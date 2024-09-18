@@ -27,8 +27,6 @@ class StoreRecipeRequest extends FormRequest
             'description' => 'required|string',
             'image' => 'nullable|image|mimes:png,jpg,jpeg|max:2048',
             'isActive' => 'required',
-            'isComment' => 'required',
-            'isSharable' => 'required',
             'category_id' => 'required'
             
         ];

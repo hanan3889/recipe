@@ -6,8 +6,7 @@ use App\Models\Category;
 
 class HomeController extends Controller
 {
-    //
-
+    
     public function index()
     {
         $recipes = Recipe::orderBy('created_at', 'desc')->get();
